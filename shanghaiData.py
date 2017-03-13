@@ -7,7 +7,6 @@ browser = webdriver.Firefox()
 
 
 
-
 browser.get("http://www.sse.com.cn/market/stockdata/overview/day/")
 browser.implicitly_wait(5)
 js = "document.getElementById('start_date2').removeAttribute('readOnly');"
